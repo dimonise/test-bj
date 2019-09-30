@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+}
+
+.header {
+    background-color: #22595a;
+    color: #ffffff;
+}
+
+.header div {
+    border: 1px solid #ffffff;
+    text-align: center;
+    word-wrap: break-word;
+}
+.header a{
+    color:#ffffff;
+}
+.task-body div {
+    border: 1px solid #000000;
+    text-align: center;
+    max-height: 150px;
+    word-wrap: break-word;
+}
+.task-style{
+    min-height: 150px;
+    max-height: 150px;
+    overflow: scroll;
+}
+.paginator {
+    text-align: center;
+}
+
+.admin {
+    text-align: center;
+    padding: 20px;
+}
+
+input, textarea {
+    width: 100%;
+}
